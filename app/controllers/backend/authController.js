@@ -36,7 +36,7 @@ const auth = {
           { new: true }
         );
 
-        res.redirect("http://localhost:1010/api/v1/backend/auth/loginpage");
+        res.redirect("https://blogbackend-j450.onrender.com/api/v1/backend/auth/loginpage");
       } else {
         res.send({ error: "token unverified" });
       }
@@ -44,7 +44,7 @@ const auth = {
   },
 
   loginPage(req, res) {
-    res.redirect("http://localhost:5173");
+    res.redirect("https://blogfrontend-mu.vercel.app");
   },
 
   async login(req, res) {
