@@ -44,7 +44,7 @@ const auth = {
   },
 
   loginPage(req, res) {
-    res.redirect("https://main--blogfrontend123.netlify.app");
+    res.redirect("https://blogfrontend123.netlify.app/");
   },
 
   async login(req, res) {
