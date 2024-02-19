@@ -13,7 +13,7 @@ async function emailSend(userMail, token) {
     from: 'Blog site email send', // sender address
     to: userMail, // list of receivers
     subject: "Hello ✔", // Subject line
-    html: `<h2>https://blogbackend-j450.onrender.com/api/v1/backend/auth/tokencheck/${token}</h2>`, // html body
+    html: `<h2>https://main--blogfrontend123.netlify.app/api/v1/backend/auth/tokencheck/${token}</h2>`, // html body
   });
 }
 

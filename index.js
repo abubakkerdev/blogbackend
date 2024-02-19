@@ -16,7 +16,7 @@ app.use(`${imageUrl}/images`, express.static(`${__dirname}/public/images/`));
  
 const io = socketIO(server, {
   cors: {
-    origin: "https://blogfrontend-mu.vercel.app",
+    origin: "https://main--blogfrontend123.netlify.app",
   },
 });
 
